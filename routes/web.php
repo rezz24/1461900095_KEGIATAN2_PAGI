@@ -15,19 +15,19 @@ use App\Http\Controllers\anggotaController;
 */
 
 Route::get('/', function () {
-    return view('home0083');
+    return view('home0095');
 });
-Route::get('/select0083', function () {
-    return view('select0083');
+Route::get('/select0095', function () {
+    return view('select0095');
 });
-Route::get('/select_like0083', function () {
-    return view('select_like0083');
+Route::get('/select_like0095', function () {
+    return view('select_like0095');
 });
-Route::get('/select_join0083', function () {
-    return view('select_join0083');
+Route::get('/select_join0095', function () {
+    return view('select_join0095');
 });
-Route::get('/select_join_like0083', function () {
-    return view('select_join_like0083');
+Route::get('/select_join_like0095', function () {
+    return view('select_join_like0095');
 });
 
 Route::resource('anggota', anggotaController::class);
